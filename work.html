@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Work Jonathan Seife</title>
+	<title>Jonathan Seife - Contact</title>
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 	<header class="page-header">
@@ -36,47 +36,85 @@
 		</div>
 		<div class="work-portfolio">
 			<div class="work-portfolio__item">
-				<h2>Website Build #1</h2>
-				<p>
-					This is a a website I built as part of a project in my web-developer course. I worked on all aspects of this website, from HTML to CSS to JavaScript.
-				</p>
-				<a href="#">See my project on GitHub</a>
+				 <section>
+      <div class="project-list">
+        <div class="project-list__item">
+          <img
+            src="img/pokedex ss.png"
+            class="project-screenshot"
+            alt="Screenshot of a Pokemon Database"
+          />
+		  <h2>Pokedex App</h2>
+		  <p>
+			  This is an app that displays a Pokemon Database.  Loads data from an external source (API). Shows a list of Pokemons with their details and attributes. When user clicks on a Pokemon a modal shows with the pokemons details and image that are fetched from the external API.
+		  </p>
+          <p>
+			Technologies used: HTML, CSS, JavaScript, Bootstrap/jQuery,
+            ESLint/Prettier.
+          </p>
+          <a
+            href="https://jonathanseife.github.io/pokedex-app-project/"
+            class="button button-work"
+            target="_blank"
+            >Visit my Pokedex App</a
+          >
+          <a
+            href="https://github.com/JonathanSeife/pokedex-app-project"
+            class="button button-work"
+            target="_blank"
+            >See my project on GitHub</a
+          >
+		  </div>
+		  <div class="project-list__item">
+			<img
+			  src="img/myflix-client.png"
+			  class="project-screenshot"
+			  alt="Screenshot of a Movie Database"
+			/>
+			<h2>MyFlix CLient</h2>
+			<p>
+				Using React I built the client-side for an application called myFlix based on its existing server-side code (REST API and database).
+
+
+App Views and Features:
+
+Registration view ● Allows new users to register (username, password, email, birthday)
+
+Login view ● Allows users to log in with a username and password
+
+Main view ● Returns a list of ALL movies to the user (each listed item with an image, title, and description) ● Sorting and filtering ● Ability to select a movie for more details
+
+Single movie view ● Returns data (description, genre, director, image) about a single movie to the user ● Allows users to add a movie to their list of favorites
+
+Genre view ● Returns data about a genre, with a name and description ● Displays example movies
+
+Director view ● Returns data about a director (name, bio, birth year, death year) ● Displays example movies
+
+Profile view ● Allows users to update their user info (username, password, email, date of birth) ● Allows existing users to deregister ● Displays favorite movies ● Allows users to remove a movie from their list of favorites
+			</p>
+			<p>
+				Technologies used: JavaScript, React, React Bootstrap, React Redux, Parcel.
+			</p>
+			<a
+			  href="https://seife-myflix.netlify.app/"
+			  class="button button-work"
+			  target="_blank"
+			  >Visit MyFlix-Client App</a 
+			>
+			<a
+			  href="https://github.com/JonathanSeife/myFlix-client"
+			  class="button button-work"
+			  target="_blank"
+			  >See my project on GitHub</a
+			>
+			<a
+			  href="https://github.com/JonathanSeife/myFlix-client"
+			  class="button button-work"
+			  target="_blank"
+			  >See Rest API</a
+			>
 			</div>
-			<div class="work-portfolio__item">
-				<h2>Website Build #2</h2>
-				<p>
-					This is a a website I built as part of a project in my web-developer course. I worked on all aspects of this website, from HTML to CSS to JavaScript.
-				</p>
-				<a href="#">See my project on GitHub</a>
-			</div>
-			<div class="work-portfolio__item">
-				<h2>Website Build #3</h2>
-				<p>
-					This is a a website I built as part of a project in my web-developer course. I worked on all aspects of this website, from HTML to CSS to JavaScript.
-				</p>
-				<a href="#">See my project on GitHub</a>
-			</div>
-			<div class="work-portfolio__item">
-				<h2>Website Build #4</h2>
-				<p>
-					This is a a website I built as part of a project in my web-developer course. I worked on all aspects of this website, from HTML to CSS to JavaScript.
-				</p>
-				<a href="#">See my project on GitHub</a>
-			</div>
-			<div class="work-portfolio__item">
-				<h2>Website Build #5</h2>
-				<p>
-					This is a a website I built as part of a project in my web-developer course. I worked on all aspects of this website, from HTML to CSS to JavaScript.
-				</p>
-				<a href="#">See my project on GitHub</a>
-			</div>
-			<div class="work-portfolio__item">
-				<h2>Website Build #6</h2>
-				<p>
-					This is a a website I built as part of a project in my web-developer course. I worked on all aspects of this website, from HTML to CSS to JavaScript.
-				</p>
-				<a href="#">See my project on GitHub</a>
-			</div>
+
 		</div>
   </section>
 	<footer class="page-footer">
