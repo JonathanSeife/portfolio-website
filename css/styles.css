@@ -1,7 +1,7 @@
 :root {
   --primary-color: #357b70;
   --secondary-color: #05676e;
-  --background-color: #8f8fc9;
+  --background-color: #fcfcfc;
   --background-colorgrid: #676565;
   --active-color: #489c79;
   --sun-color1: #edc655;
@@ -257,7 +257,7 @@ button:focus,
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    background-color: aliceblue;
+
     margin: 0 20px;
   }
 
