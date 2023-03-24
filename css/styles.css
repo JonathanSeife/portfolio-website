@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #b8bcbb;
-  --secondary-color: #d3d7d7;
+  --primary-color: #6ea99a;
+  --secondary-color: #babebe;
   --background-color: white;
   --background-colorgrid: #676565;
-  --active-color: #fafefc;
+  --active-color: #316c4e;
   --sun-color1: #edc655;
   --sun-color2: #fcffad;
   --sun-color3: #f76414;
@@ -78,7 +78,7 @@ a:active {
   text-align: right;
 }
 .logo {
-  height: 50px;
+  height: 250px;
 }
 
 .navigation-list {
