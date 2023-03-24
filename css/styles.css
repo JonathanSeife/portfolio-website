@@ -1,7 +1,7 @@
 :root {
   --primary-color: #b8bcbb;
   --secondary-color: #d3d7d7;
-  --background-color: #fcfcfc;
+  --background-color: white;
   --background-colorgrid: #676565;
   --active-color: #fafefc;
   --sun-color1: #edc655;
@@ -77,7 +77,7 @@ a:active {
   flex-grow: 1;
   text-align: right;
 }
-.logo img {
+.logo {
   height: 50px;
 }
 
