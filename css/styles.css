@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6ea99a;
+  --primary-color: #6372a7;
   --secondary-color: #babebe;
   --background-color: white;
   --background-colorgrid: #676565;
@@ -78,7 +78,7 @@ a:active {
   text-align: right;
 }
 .logo {
-  height: 250px;
+  height: 150px;
 }
 
 .navigation-list {
@@ -126,6 +126,7 @@ button,
   color: white;
   text-decoration: none;
   padding: 10px;
+  padding-top: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: 0.2s opacity;
